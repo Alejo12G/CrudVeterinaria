@@ -1,5 +1,5 @@
 // Definición del paquete donde se encuentra la clase
-package ejemplocrud_2;
+package crudveterinaria;
 
 // Clase que representa un artista en el sistema
 public class Artista {

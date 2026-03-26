@@ -1,5 +1,5 @@
 // Paquete donde se encuentra la clase
-package ejemplocrud_2;
+package crudveterinaria;
 
 // Importación de las clases necesarias para manejar la conexión a la base de datos
 import java.sql.Connection; // Representa la conexión a la base de datos
@@ -11,13 +11,13 @@ public class ConexionBD {
     
     // Constante que almacena la URL de conexión a la base de datos MySQL
     // La URL incluye el nombre de la base de datos y parámetros de configuración
-    private static final String URL = "jdbc:mysql://localhost:3306/ejemplo_seguridad?useUnicode=true&characterEncoding=UTF-8";
+    private static final String URL = "jdbc:mysql://localhost:3306/veterinaria_antioquia?useUnicode=true&characterEncoding=UTF-8";
     
     // Usuario de MySQL con permisos para acceder a la base de datos
     private static final String USUARIO = "root";
     
     // Contraseña del usuario de MySQL
-    private static final String PASSWORD = "henry";
+    private static final String PASSWORD = "1211";
 
     // Método estático que establece y devuelve una conexión a la base de datos
     public static Connection getConnection() throws SQLException {

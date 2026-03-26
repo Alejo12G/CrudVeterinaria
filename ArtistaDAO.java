@@ -1,5 +1,5 @@
 // Definimos el paquete donde se encuentra la clase
-package ejemplocrud_2;
+package crudveterinaria;
 
 // Importamos las clases necesarias para la conexión y manipulación de la base de datos
 import java.sql.*; // Contiene Connection, PreparedStatement, ResultSet, Statement, SQLException
